@@ -1,0 +1,557 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background: #fafafa;
+}
+
+/* =========================== header start */
+header nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav .nav_top {
+    background: #000000;
+}
+
+header nav .nav_top .number {
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+header nav .nav_top .number .call {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 9px;
+}
+
+header nav .nav_top .account {
+    display: flex;
+}
+
+header nav .nav_top .account .dropdown {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+}
+
+header nav .nav_top .account .dropdown .btn {
+    color: #fff;
+}
+
+header nav .nav_top .account .user {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header nav .nav_top .account .user span {
+    color: #666;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 11px;
+}
+
+header nav .nav_top .account .search {
+    background: transparent;
+    border: none;
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    color: #fff;
+    padding: 0 6px 0 8px;
+    transform: rotateY(180deg);
+}
+
+header nav .nav_bottom {
+    background: #fafafa;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header nav .nav_bottom .logo {
+    color: #000000;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+header nav .nav_bottom .logo:hover {
+    text-decoration: none;
+}
+
+header nav .nav_bottom .navbar .navbar-nav .nav-item .nav-link {
+    color: #000;
+    padding: 0;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header nav .nav_bottom .cash {
+    border: 1px solid #d6d6d6;
+}
+
+header nav .nav_bottom .cash .dropdown .btn {
+    background: transparent;
+    width: 100%;
+    border: none;
+    color: #949393;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .nav_bottom .cash .shopping {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    border-top: 1px solid #d6d6d6;
+    padding-top: 9px;
+    padding-bottom: 5px;
+}
+
+header nav .nav_bottom .cash .shopping .count {
+    margin-bottom: 0;
+    color: #949393;
+}
+
+header nav .nav_bottom .cash .shopping span {
+    color: #b3b3b3;
+    font-size: 18px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+.fa-chevron-right:before {
+    content: "\f054";
+    font-size: 22px;
+    color: #cccccc;
+}
+.carousel-indicators{
+    bottom: -60px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color:#000000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.choose_slinder .container .carousel-inner .carousel-item .container .after-choose .carousel-info h2{
+    font-weight: 400;
+    font-size: 24px;
+    color: #4a4a4a;
+}
+.choose_slinder .container .carousel-inner .carousel-item .container .after-choose .carousel-info .sale{
+    font-weight: 700;
+    font-size: 37px;
+    color: #000;
+}
+.choose_slinder .container .carousel-inner .carousel-item .container .after-choose .carousel-info p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #8f8f8f;
+}
+.choose_slinder .container .carousel-inner .carousel-item .container .after-choose .carousel-info .slider-button{
+    border: 1px solid #000000;
+    background: #1f1f1f;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 12px 5px 14px 20px;
+}
+.choose_slinder .container .carousel-inner .carousel-item .container .after-choose .carousel-info .slider-button .fa     {
+    font-size: 19px;    
+}
+.fa-chevron-:left:before{
+    content: "\f054";
+    font-size: 30px;
+    color: #cccccc;
+}
+.fa-chevron-right:before{
+    content: "\f054";
+    font-size: 30px;
+    color: #cccccc;
+}
+.carousel-control-prev {
+    left: -35px;
+}
+.carousel-control-next {
+    right: -35px;
+}
+
+/* _________________ header finish ++++++++++++++++++ */
+section .n_nav nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+section .n_nav nav .nav_left{
+    display: flex;
+    justify-content: space-between;
+}
+section .n_nav nav .nav_right{
+    display: flex; 
+    justify-content: space-between;
+}
+section .n_nav nav .nav_left .btn{
+margin-left: 15px;
+}
+section .n_nav nav .nav_right .bottoms .nav_buttons{
+    margin-left: 15px;
+    border: none;
+}
+section .n_nav nav .nav_right .bottoms .nav_buttons:hover{
+   background-color: black;
+   color: white;
+   transition: .5s;
+}
+section .n_nav nav .nav_right .bottoms .nav-buttons{
+    border: none;
+}
+section .n_nav nav .nav_right .bottoms .nav-buttons:hover{
+    background: black;
+    color: white;
+    transition: .5s;
+}
+section .container .row .sale_products .rows   {
+    margin-top: 50px;
+}
+section .container .row .hard{
+    margin-top: 100px;
+} 
+section .container .row .hard h3{
+    background: black;
+    color: #ffffff;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+section .container .row .hard .accordion input{ 
+    width: 260px;
+    margin-top: 29px;
+    margin-bottom: 36px;
+}
+section .container .row .hard .accordion .filtrr{
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+section .container .row .hard .accordion .filtrr .input_p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #848484;
+}
+section .container .row .hard .accordion .filtrr .filtr{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    width: 70px;
+    height: 32px;
+    border:none;
+    align-items: center;
+    border-bottom: 3px solid #cccccc;
+}
+section .n_nav nav .nav_left .sortirovka{
+font-weight: 400;
+font-size: 11px;
+color: #4d4d4d;
+}
+section .sale_products .card{
+    text-align: center;
+    background-color: #f9f5f4;
+    margin-bottom: 26px;
+}
+section .sale_products .card .card-title{
+    color: #373737;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+}
+section .sale_products .card .card-text{
+    color: #373737;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 22px;
+}
+section .sale_products .card .btn{
+    border: 1px solid black;
+    border-radius: 0;
+    background: #1f1f1f;
+}
+.accordion-button{
+    text-transform: uppercase;
+}
+.accordion-button:not(.collapsed)::after {
+background: url(../Images/minus.png);
+width: 25px; 
+height: 8px;
+}
+.accordion-button::after{
+    background: url(../Images/gfgfg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .container .row .hard .accordion .size{
+    font-weight: 400;font-size: 12px;color: #5e5e5e;
+}
+section .container .row .hard .accordion .butons button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+section .container .row .hard .accordion .butons button:hover .active{
+    background-color: black;
+}
+section .container .row .hard .accordion .butons button{
+    width: 31px;
+    height: 30px;
+    border: none;
+    margin-bottom: 39px;
+}
+section .container .row .hard h4{
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+    margin: 0;
+    background: black;
+    text-transform: uppercase;
+}
+section .container .row .hard .madel_man{
+    display: flex;
+    justify-content: space-between;
+    justify-content: start;
+    border-bottom: 1px solid #d6d6d6;
+    margin-top: 10px;   
+}
+section .container .row .hard .madel_man .man{
+    margin-bottom: 9px;
+}
+section .container .row .hard .madel_man .man_info{
+    margin-left: 10px;
+}
+section .container .row .hard .madel_man .man_info .tank{
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    color: #5e5e5e;
+}
+section .container .row .hard .madel_man .man_info .price5{
+    font-weight: 700;
+    font-size: 17px;
+    color: black;
+}
+section .pogitin{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+section .pogitin .resultat{
+    margin-right: 25px;
+}
+.page-link {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000000;
+}
+section .divs{
+    background: #f7f7f7;
+}
+/* ____________ SECTON FINISH ________________ */
+main{
+    background: #f7f7f7;
+    width: 100%;
+    height: 58px;
+}
+footer{
+    background: #000000;
+    padding: 64px 0 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h3{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+footer .footer-list .footer-info{
+    padding: 0;
+    margin: 0;
+}
+
+
+footer .footer-list .footer-info .list-info .link-info{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    opacity: .7;
+}
+
+footer .footer-social .footer_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-social .footer_icons .social_left .social-list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+footer .footer-social .footer_icons .social_left .social-list li a{
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #4c4c4b;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+footer .footer-social .footer_icons .social_left .social-list:first-child{
+    margin-bottom: 9px;
+}
+/* ____________ MEDIA START _________________ */
+/* lg 992 < = 1999 */
+@media(max-width: 1999px){
+    .fa-chevron-left:before{
+        font-size: 32px;
+        color: #373737;
+    }
+    .fa-chevron-right:before{
+        font-size: 32px;
+        color: #373737;
+    }
+
+}
+/* md 768 < = 991 */
+@media(max-width: 991px){
+    section .pogitin{
+        justify-content: center;
+    }
+}
+/* sm 576 < = 767 */
+@media(max-width: 767px){
+    header nav .nav_top .number {
+        margin: 0 -15px;
+        color: #fff;
+        text-align: center;
+        font-family: "Roboto";
+        font-weight: 700;
+        padding: 10px 0;
+    }
+    .choose_slinder .container .carousel-inner .carousel-item .container .after-choose .carousel-info .slider-button{
+        font-size: 13px;
+    }
+    .fa-chevron-left:before{
+        font-size: 32px;
+        color: #373737;
+    }
+    .fa-chevron-right:before{
+        font-size: 32px;
+        color: #373737;
+    }
+    footer span {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    footer{
+        padding: 18px 0 18px;
+    }
+    footer .navbar-nav .nav-link {
+        color: #fff !important;
+        text-align: center;
+    }
+    footer .navbar .container-fluid .navbar-toggler{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+/* xs < = 575 */
+@media(max-width: 575px){
+    header nav .nav_top .number .call {
+        color: #fff;
+    }
+
+    header nav .nav_bottom .logo{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    header  .navbar .container-fluid .navbar-toggler {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    section .n_nav nav .nav_right .bottoms{
+        display: none;
+    }
+    section .n_nav nav .nav_right{
+        display: none;
+    }
+    
+    section .n_nav nav .nav_left .btn{
+    display: none;
+}
+section .n_nav nav .nav_left .sortirovka{
+    display: none;
+}
+.carousel-indicators{
+    display: none;
+}
+header .choose_slinder{
+    display: none;
+}
+header nav .nav_top .account {
+    display: flex;
+    justify-content: center;
+}
+section .n_nav nav{
+    margin-top: 0;
+}
+section .container .row .hard {
+    margin-top: 00px;
+}
+header .navbar .container-fluid .navbar-toggler {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.justify-content-end {
+    justify-content: center !important;
+}
+header nav .nav_top .number {
+    margin: 0 -15px;
+    color: #000;
+    background: white;
+}
+header nav .nav_top .number .call {
+    color: #000;
+}
+}
